@@ -24,10 +24,10 @@ export interface RiskAnalysisResult {
     description: string;
     suitability: string;
   }[];
-  topAdvice: string;
+  topAdvice:  string;
 }
 
-export interface TermExplanation {
+export interface  TermExplanation {
   term: string;
   definition: string;
   analogy: string;
